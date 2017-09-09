@@ -111,37 +111,13 @@ end
 
 %% Display Function
 
+% Thanks to Philip Lindin for providing the display function from his TDU.m
+% script
+% https://github.com/runphilrun/TDU
+
 function display(result)
 [n,~]=size(result);
 for i = 1:n
     fprintf('\n%24s\t%12f\t%s',result{i,:});
 end
 end
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
